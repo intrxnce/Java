@@ -24,9 +24,9 @@ public class Salario {
 		System.out.println("Digite o valor dos descontos: ");
 		descontos = leia.nextFloat();
 		
-		soma = (salarioBruto + adicionalNoturno + horasExtras);
+		soma = (salarioBruto + adicionalNoturno + (horasExtras * 5));
 		
-		System.out.println("Salário Líquido: " + df.format(soma - descontos));
+		System.out.println("Salário Líquido: " + df.format((soma - descontos)));
 		
 	}
 }
