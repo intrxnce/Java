@@ -22,7 +22,7 @@ public class Aula01 {
 		System.out.println("Digite o segundo número: ");
 		numero2 = leia.nextDouble();
 		
-		System.out.println("Soma = " + df.format((numero1 + numero2)));
+		System.out.println("Soma: " + df.format((numero1 + numero2)));
 		System.out.println("Subtração = " + df.format((numero1 - numero2)));
 		System.out.println("Multiplicação = " + df.format((numero1 * numero2)));
 		System.out.println("Divisão = " + df.format((numero1 / numero2)));
