@@ -26,7 +26,7 @@ public class Salario {
 		
 		soma = (salarioBruto + adicionalNoturno + (horasExtras * 5));
 		
-		System.out.println("Salário Líquido: " + df.format((soma - descontos)));
+		System.out.println("Salário Líquido: R$ " + df.format((soma - descontos)));
 		
 	}
 }

@@ -18,7 +18,7 @@ public class Fluxograma {
 		System.out.println("Digite o valor do abono: ");
 		abono = leia.nextFloat();
 		
-		System.out.println("Novo salário: " + df.format((salario+abono)));
+		System.out.println("Novo salário: R$ " + df.format((salario+abono)));
 		
 	}
 
