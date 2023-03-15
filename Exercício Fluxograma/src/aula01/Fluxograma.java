@@ -10,13 +10,13 @@ public class Fluxograma {
 		DecimalFormat df = new DecimalFormat("###,###,##0.00");
 		
 		Scanner leia = new Scanner (System.in);
-		double salario, abono;
+		float salario, abono;
 		
 		System.out.println("Digite o valor do salário: ");
-		salario = leia.nextDouble();
+		salario = leia.nextFloat();
 		
 		System.out.println("Digite o valor do abono: ");
-		abono = leia.nextDouble();
+		abono = leia.nextFloat();
 		
 		System.out.println("Novo salário:" + df.format(salario+abono));
 		
