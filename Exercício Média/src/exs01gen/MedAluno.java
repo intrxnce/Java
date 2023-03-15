@@ -1,4 +1,4 @@
-package aula01;
+package exs01gen;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -26,7 +26,7 @@ public class MedAluno {
 	
 	soma = (nota1 + nota2 + nota3 + nota4);
 	
-	System.out.println("Novo salário:" + df.format(soma/4));
+	System.out.println("Média do aluno: " + df.format(soma/4));
 	
 	}
 

@@ -1,4 +1,4 @@
-package aula01;
+package exs01gen;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -7,7 +7,7 @@ public class Salario {
 
 	public static void main(String[] args) {
 		
-		DecimalFormat df = new DecimalFormat("##0.00");
+		DecimalFormat df = new DecimalFormat("###,##0.00");
 		
 		Scanner leia = new Scanner (System.in);
 		float salarioBruto, adicionalNoturno, horasExtras, descontos, soma;
@@ -26,7 +26,7 @@ public class Salario {
 		
 		soma = (salarioBruto + adicionalNoturno + horasExtras);
 		
-		System.out.println("Salário Líquido" + df.format(soma - descontos));
+		System.out.println("Salário Líquido: " + df.format(soma - descontos));
 		
 	}
 }
