@@ -54,7 +54,7 @@ public class ExQueue {
 			break;
 		case 0:
 			System.out.println("0 - Sair");
-			leia.close();
+			System.out.println("Programa finalizado.");
 			break;
 		default:
 			System.out.println("Opção inválida.");
